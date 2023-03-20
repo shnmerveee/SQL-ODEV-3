@@ -20,4 +20,5 @@ WHERE title ILIKE '___T%'
 film tablosunda bulunan tüm sütunlardaki verilerden title 'C' karakteri ile başlayan ve uzunluğu (length) 90 dan büyük olan ve rental_rate 2.99 olan verileri sıralayınız.
 ÇÖZÜM:SELECT* FROM film
 WHERE title LIKE 'C%' AND length > 90 AND rental_rate =2.99
+
 ![44444](https://user-images.githubusercontent.com/128131203/226285636-47c72373-a0f4-459f-8d3f-7a4c836d99dd.PNG)
